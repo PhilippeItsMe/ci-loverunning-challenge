@@ -12,7 +12,7 @@ body {
     color: #3a3a3a;
 }
 
-/* Headings and logo */
+/* Headings */
 
 h1,
 h2 {
@@ -25,6 +25,7 @@ h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 10px;
 }
 
 #logo,
@@ -108,6 +109,72 @@ h2 {
     position: absolute;
     bottom: 40px;
     right: 150px;
+}
+
+/* Why love running with us */
+
+#club-ethos {
+    height: 600px;
+}
+
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 180%;
+}
 
 
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-about {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    text-align: right;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: black url("../images/ethos-center-image.jpg") center/cover no-repeat;
+    height: 100%;
+    border-radius: 50%;
 }
