@@ -115,6 +115,7 @@ h2 {
 
 #club-ethos {
     height: 600px;
+    background-color: red;
 }
 
 #welcome {
@@ -242,4 +243,15 @@ footer ul li a {
 
 #photos>img {
     width: 100%;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        background-color: red;
+        width: 65%;
+        height: 1200px;
+
+    }
 }
