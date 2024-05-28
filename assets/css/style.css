@@ -275,6 +275,16 @@ footer ul li a {
         display: none;
     }
 
+    #times {
+        height: 1000px;
+    }
+
+    #times div {
+        width: 100%;
+        clear: both;
+        height: 200px;
+    }
+
 }
 
 @media screen and (max-width: 950px) {
