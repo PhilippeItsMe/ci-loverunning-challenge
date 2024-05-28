@@ -115,7 +115,6 @@ h2 {
 
 #club-ethos {
     height: 600px;
-    background-color: red;
 }
 
 #welcome {
@@ -249,9 +248,30 @@ footer ul li a {
 
 @media screen and (max-width: 1200px) {
     #club-ethos {
-        background-color: red;
         width: 65%;
         height: 1200px;
+        margin: 0 auto;
+    }
 
+    #welcome {
+        padding: 30px;
+        margin: 0;
+    }
+
+    #left-about,
+    #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
     }
 }
