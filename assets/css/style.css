@@ -207,3 +207,26 @@ hr {
     color: #fafafa;
     padding-bottom: 10px;
 }
+
+/* Footer */
+
+footer {
+    height: 100px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+footer ul li {
+    padding: 20px;
+    font-size: 150%
+}
+
+footer ul li a {
+    color: #3a3a3a;
+}
